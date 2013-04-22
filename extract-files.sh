@@ -33,7 +33,6 @@ for FILE in `cat proprietary-files.txt | grep -v ^# | grep -v ^$`; do
 done
 
 
-
 (cat << EOF) | sed s/__DEVICE__/$DEVICE/g | sed s/__VENDOR__/$VENDOR/g > $DEVICEMAKEFILE
 # Copyright (C) 2012 The CyanogenMod Project
 #
