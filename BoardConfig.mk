@@ -31,6 +31,9 @@ TARGET_KERNEL_CONFIG := custom_i9100_defconfig
 # Rom/Kernel Toolchain Sabermod 4.8/4.7
 TARGET_GCC_VERSION_EXP := 4.8
 
+# Swipe CWM
+BOARD_RECOVERY_SWIPE := true
+
 # assert
 TARGET_OTA_ASSERT_DEVICE := galaxys2,i9100,GT-I9100,GT-I9100M,GT-I9100P,GT-I9100T,SC-02C
 
