@@ -50,8 +50,4 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/usr/idc/mxt224_ts_input.idc:system/usr/idc/mxt224_ts_input.idc \
     $(LOCAL_PATH)/usr/idc/sec_touchscreen.idc:system/usr/idc/sec_touchscreen.idc
 
-# QuickBoot
-PRODUCT_PACKAGES += \
-    QuickBoot
-
 $(call inherit-product-if-exists, vendor/samsung/i9100/i9100-vendor.mk)
