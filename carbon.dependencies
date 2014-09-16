@@ -10,8 +10,10 @@
         "revision": "android-4.4"
     },
     {
-        "repository": "TheMuppets/proprietary_vendor_samsung",
-        "target_path": "vendor/samsung"
+        "remote": "gh",
+        "repository": "TheThunderbirds/proprietary_vendor_samsung",
+        "target_path": "vendor/samsung",
+        "revision": "kk"
     },
     {
         "remote": "sf",
